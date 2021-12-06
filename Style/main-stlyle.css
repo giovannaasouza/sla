@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-branca {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo-header{
+    width: 125px;
+    height: 120px;
+
+}
+
+header{
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Text Me One', sans-serif;
+}
+
+#centro ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+header a{
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#login{
+    display: flex;
+    justify-content: right; 
+    align-items: center;
+}
+
+.user-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.content-img{
+    background-image: url(../img/Saúde-médicos-atendimento-médico\ 1\ \(1\).png);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-img p{
+    max-width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Architects Daughter';
+    margin-top: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-destaques{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-destaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spmdc-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 200px;
+}
+
+.spmdc-card a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 280px;
+    background: rgba(72, 235, 199, 0.85);
+    border-radius: 25px;
+    font-family: 'Nova Round', cursive;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+
+.hospital-icon{
+    margin-bottom: 50px;
+}
+
+.img-text {
+    margin-top: 75px;
+    background-image: url(../img/banner-covid\ 1.png);
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Text Me One';
+}
+
+.img-text h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 50px;
+}
+
+.img-text p{
+    width: 50%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+}

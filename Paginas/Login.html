@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="style" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../Style/login-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Medical Group - Login</title>
+</head>
+<header>
+    <section>
+    <DIV>
+        <li>
+            <a href="Consultas.html">Agende sua Consulta</a>
+        </li>
+        <li>
+            <a href="Home.html">Nossos Serviços</a>
+        </li>
+        <li>
+            <a href="Home.html">Horarío de Funcionamento</a>
+        </li>
+    </DIV>
+</section>
+</header>
+<body>
+
+    <div class="main-content">
+        <div class="container-right">
+            <h1>Login</h1>
+            <form class="input-login">
+                <div class="input-box">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" name="email" class="input-content" id="e-mail" placeholder="E-Mail">
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-key"></i>
+                    <input type="password" name="senha" class="input-content" id="myInput" placeholder="Senha">
+                    <span onclick="myFunction()">
+                        <i id="hide1" class="far fa-eye"></i>
+                        <i id="hide2" class="far fa-eye-slash"></i>
+                    </span>
+                </div>
+                <button type="submit" class="btn-login">Enter</button>
+                   
+            </form>
+        </div>
+    </div>
+    
+    <div class="links">
+        <div class="link">
+            <img src="" alt="" />
+
+        </div>
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myInput");
+                var y = document.getElementById("hide1");
+                var z = document.getElementById("hide2");
+
+                if (x.type === 'password') {
+                    x.type = "text";
+                    y.style.display = "block";
+                    z.style.display = "none";
+                }
+                else {
+                    x.type = "password";
+                    y.style.display = "none";
+                    z.style.display = "block";
+                }
+            }
+        </script>
+</body>
+
+</html>

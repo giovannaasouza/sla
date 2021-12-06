@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    width: 1536px;
+    height: 791px;
+
+    background: linear-gradient(248.66deg, #63EECF 27.53%, rgba(41, 202, 237, 0) 113.11%)
+}
+
+.left-ball {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.compo_nome{
+    background-image: url(../img/Rectangle\ 33.png) ;
+}
